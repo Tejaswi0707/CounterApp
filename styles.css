@@ -1,0 +1,35 @@
+body{
+    display: flex; /*Use flexbox layoutto easily center content*/
+    justify-content: center; /*Horizontally center the content*/
+    align-items: center; /*Vertically center the content*/
+    height:100vh; /*set the height of the viewport to 100% of the screen */
+    margin: 0; /*Remove default margin around the body*/
+    font-family: Arial, sans-serif; /*Set a clean, readable font */
+}
+.counter-container{
+    text-align: center; /*center text within this container*/
+}
+#counter{
+    font-size: 4em; /* Set a large font size for easy readability*/
+    color: #333; /*Use a dark gray color for the number*/
+
+}
+button{
+    font-size: 1em; /*Set font size for button text */
+    padding: 10px 20px; /*Add padding inside buttons*/
+    margin: 10px; /*Space between buttons */
+    cursor: pointer; /*Change the mouse cursor to a pointer when hovering over button */
+
+}
+#decrease{
+    background-color: #ff6961; 
+    color: white; /*Set text color to white for contrast*/
+    border: none;
+
+}
+#increase{
+    background-color: #77dd77;
+    color: white;
+    border: none;
+
+}
