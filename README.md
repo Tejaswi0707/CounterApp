@@ -21,6 +21,6 @@
 # How to run locally
 1. Clone the Repository
    ```bash
-   git clone 
+   git clone https://github.com/Tejaswi0707/CounterApp.git
 2. Navigate to the Project Folder.
 3. Open the index.html file. Simply double-click on the index.html or open it in your preferred browser. 
